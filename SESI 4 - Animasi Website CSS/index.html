@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="assets/icons/coding.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Silkscreen&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>WEB PERTAMA</title>
+</head>
+<body>
+    <header class="animate__animated animate__backInDown animate__faster">
+        <div class="logo">
+            <img src="assets/icons/partner.png" alt="logo" class="logo-img animate__animated animate__tada animate__infinite" />
+            <h1 class="logo-title animate__animated animate__tada animate__infinite">DAN X</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#jasa">JASA</a></li>
+                <li><a href="mailto:danielgokil21@icloud.com">KONTAK</a></li>
+            </ul>
+        </nav>
+        <button class="btn-cta" onclick="redirInstagram ()">Follow Saya</button>
+    </header>
+    
+    <div class="container">
+        <div class="intro">
+            <p class="title animate__animated animate__backInLeft">Hello, Daniel Pasaribu Here!</p>
+            <p class="description animate__animated animate__backInRight">Technology Influencer From Konoha</p>
+            <img src="assets/foto/daniel-1.png" alt="daniel pasaribu foto 1" class="img-foto animate__animated animate__backInDown"/>
+        </div>
+    </div>
+    <div class="parallax">
+        <div class="tentang">
+            <p class="title animate__animated animate__fadeInLeft">Saya adalah Programmer Newbie</p>
+            <p class="description animate__animated animate__fadeInRight">Ngoding aja dulu, pro nya belakangan.</p>
+            <div class="mt-10">
+                <button class="btn-cta animate__animated animate__fadeIn" onclick="redirWhatsapp ()">Mari Kerjasama</button>
+            </div>
+        </div>
+        <div class="container">
+                <div class="card animate__animated animate__lightSpeedInLeft animate__faster" id="jasa">
+                    <div class="card-item">
+                        <img src="assets/icons/24-hours.png" alt="icon 1" class="icon" />
+                        <p class="card-title">Pelayanan Nonstop</p>
+                        <p class="card-description">Pelayanan 24 Jam Nonstop ketika anda membutuhkan bantuan</p>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/icons/hot-deal.png" alt="icon 2" class="icon" />
+                        <p class="card-title">Jasa Paling  Murah </p>
+                        <p class="card-description">Biaya Jasa yang Saya berikan Terjangkau dan Bersahabat</p>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/icons/rating.png" alt="icon 3" class="icon" />
+                        <p class="card-title">684 Review</p>
+                        <p class="card-description">Mereka senang ketika bekerjasama dengan saya </p>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+    <footer>
+        <p class="title">&copy; Daniel Pasaribu Website 2023</p>
+    </footer>
+
+    <script>
+        function redirInstagram () {
+            window.location.href = "https://www.instagram.com/dan.psrb"
+        }
+
+        function redirWhatsapp () {
+            window.location.href = "https://wa.me/6285831343124"
+        }
+    </script>
+</body>
+</html>
